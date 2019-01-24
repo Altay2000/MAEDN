@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<palette>
+	<category id="someUniqueId" name="Custom category" description="Category added for project M�DN" open="true">
+		<component class="javax.swing.JButton"/>
+		<component class="javax.swing.JRadioButton" name="Your name" description="You can write any description here."/>
+	</category>
+</palette>
+import javax.swing.SwingUtilities;
+import javax.swing.JFrame;
+
+public class SpielfeldMaedn extends JFrame {
+	
+	public SpielfeldMaedn() {
+	
+	
+	setTitle("Mensch ärgere dich nicht!");
+    setSize(1000, 600);
+    setLocationRelativeTo(null);
+    setDefaultCloseOperation(EXIT_ON_CLOSE); 
+  
+	}
+}
